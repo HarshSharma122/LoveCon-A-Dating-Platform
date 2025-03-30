@@ -1,0 +1,8 @@
+.bg-image-set
+{
+    background: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 100%)), url(/src/assets/hero-bg.jpg) center center no-repeat;
+    /* height: 87.5vh;*/
+    padding-bottom: 42px;
+    background-position: left;
+    
+}
