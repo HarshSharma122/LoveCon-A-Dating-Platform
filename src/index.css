@@ -1,2 +1,16 @@
 @import "tailwindcss";
+html
+{
+    scroll-behavior: smooth;
+}
 
+.mainLogic
+{
+    background: rgb(40,75,99) !important;
+background: radial-gradient(circle, rgba(40,75,99,1) 0%, rgba(69,161,167,1) 73%, rgba(60,110,113,1) 100%) !important;
+}
+.image-logic
+{
+    background: rgb(40,75,99);
+background: radial-gradient(circle, rgb(27, 51, 67) 0%, rgba(69,161,167,0.38139005602240894) 73%, rgba(60,110,113,1) 100%);
+}

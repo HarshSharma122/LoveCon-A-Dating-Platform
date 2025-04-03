@@ -11,9 +11,14 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.17",
+    "field": "^1.0.1",
+    "framer-motion": "^12.6.2",
+    "label": "^0.2.2",
     "react": "^19.0.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^7.4.0",
+    "react-router-dom": "^7.4.1",
+    "switch": "^0.0.0",
     "tailwindcss": "^4.0.17"
   },
   "devDependencies": {

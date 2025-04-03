@@ -1,13 +1,16 @@
 import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 
+
 import light from '../../assets/summer.png'
 import dark from '../../assets/moon.png'
+
+
+
 export default function Header() {
     const [selected, setselected] = useState("default");
     const [show, setshow] = useState(false);
-    const [changeColor, setchangeColor] = useState('black');
-    // console.log(selected);
+    const [changeColor, setchangeColor] = useState('black')
 
     const options = [
         { value: "default", label: "Default", icon: light },
@@ -56,7 +59,6 @@ export default function Header() {
 
                         <div className="flex">
                             <button className='text-white bg-[#3c6e71] w-[60px] h-[34px] flex items-center justify-center cursor-pointer hover:bg-[#458a8f] rounded mr-2'>Login</button>
-                            <button className='text-white bg-[#3c6e71] w-[60px] h-[34px] flex items-center justify-center cursor-pointer hover:bg-[#458a8f] rounded mr-2'>Signup</button>
                         </div>
                     </div>
 

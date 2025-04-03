@@ -1,8 +1,8 @@
-.bg-image-set
+.bg
+
 {
     background: rgb(40,75,99);
+
     background: radial-gradient(circle, rgba(40,75,99,1) 0%, rgba(69,161,167,1) 73%, rgba(60,110,113,1) 100%);
-    padding-bottom: 42px;
-    background-position: left;
-    
+
 }
